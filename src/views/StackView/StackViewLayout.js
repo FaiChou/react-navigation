@@ -30,7 +30,7 @@ const IS_IPHONE_X =
   Platform.OS === 'ios' &&
   !Platform.isPad &&
   !Platform.isTVOS &&
-  (WINDOW_HEIGHT === 812 || WINDOW_WIDTH === 812);
+  (WINDOW_HEIGHT > WINDOW_WIDTH*2);
 
 const EaseInOut = Easing.inOut(Easing.ease);
 
